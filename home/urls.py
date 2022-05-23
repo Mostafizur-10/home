@@ -19,15 +19,12 @@ from django.urls import path
 from django.conf import settings
 
 
-
 from page1 import views
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name='index'),
-    path('about',views.about,name='about'),
-    path('deals',views.location,name='deals'),
     path('rent',views.rent,name='rent'),
 
 ] 

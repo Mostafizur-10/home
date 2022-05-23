@@ -1,26 +1,127 @@
-{% extends 'base.html' %} {% block body %}
+<!DOCTYPE html>
+<html lang="en">
 
-
-<div class="list-container">
-    <div class="left-col">
-        <p>
-            200+ Options
-        </p>
-        <h1>Recommended Places</h1>
-        <div class="house">
-            <div class="house-img">
-                <img src="static/css/homepage.jpg">
-            </div>
-            <div class="house-info">
-                <p>Private Villa in Dhandondi</p>
-                <h3>Delux Queen Room</h3>
-                <p>1 Bedroom / 1 Bathroom / Wifi / Kitchen</p>
-            </div>
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/> 
+    <title>Rental Zone</title>
+    <script src="https://kit.fontawesome.com/f1f62904a1.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/css/style.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-white">
+        <div class="container-fluid">
+          <img src="static/css/nav-logo.png" class="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-links">
+                <li><a href="#">Popular Places</a></li>
+                <li><a href="#">Travel Outside</a></li>
+                <li><a href="/rent">Online Package</a></li>
+            </ul>
+            <a href="#" class="register-btn">Register Now</a>
+          </div>
         </div>
-
+      </nav>
+    <div class="container">
+        <div class="list-container">
+            <div class="left-col">
+                <p>200+ Options</p>
+                <h1>Recommend Places</h1>
+            <div class="house">
+                <div class="house-img">
+                    <img src="static/css/house-1.jpg">
+                </div>
+                <div class="house-info">
+                    <p>Private Villa in Rajshahi</p>
+                    <p>1 Bedroom / 1 Bathroom</p>
+                    <div class="house-price">
+                        <p>Only Family</p>
+                        <h4>$100 <span>/day</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="house">
+                <div class="house-img">
+                    <img src="static/css/house-2.jpg">
+                </div>
+                <div class="house-info">
+                    <p>Private Villa in Rajshahi</p>
+                    <p>1 Bedroom / 1 Bathroom</p>
+                    <div class="house-price">
+                        <p>Only Family</p>
+                        <h4>$100 <span>/day</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="house">
+                <div class="house-img">
+                    <img src="static/css/house-3.jpg">
+                </div>
+                <div class="house-info">
+                    <p>Private Villa in Rajshahi</p>
+                    <p>1 Bedroom / 1 Bathroom</p>
+                    <div class="house-price">
+                        <p>Only Family</p>
+                        <h4>$100 <span>/day</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="house">
+                <div class="house-img">
+                    <img src="static/css/house-4.jpg">
+                </div>
+                <div class="house-info">
+                    <p>Private Villa in Rajshahi</p>
+                    <p>1 Bedroom / 1 Bathroom</p>
+                    <div class="house-price">
+                        <p>Only Family</p>
+                        <h4>$100 <span>/day</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="house">
+                <div class="house-img">
+                    <img src="static/css/house-5.jpg">
+                </div>
+                <div class="house-info">
+                    <p>Private Villa in Rajshahi</p>
+                    <p>1 Bedroom / 1 Bathroom</p>
+                    <div class="house-price">
+                        <p>Only Family</p>
+                        <h4>$100 <span>/day</span></h4>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="right-col">
+                <div class="sidebar">
+                    <h2>Select Filters</h2>
+                    <h3>Property Type</h3>
+                    <div class="filter">
+                        <input type = 'checkbox'><p>House</p>(0)
+                    </div>
+                    <div class="filter">
+                        <input type = 'checkbox'><p>Hostel</p>(0)
+                    </div>
+                    <div class="filter">
+                        <input type = 'checkbox'><p>Flat</p>(0)
+                    </div>
+                    <div class="filter">
+                        <input type = 'checkbox'><p>Villa</p>(0)
+                    </div>
+                    <div class="filter">
+                        <input type = 'checkbox'><p>Guest Suite</p>(0)
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </div>
-
-</div>
-
-
-{% endblock body %}
+</body>

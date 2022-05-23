@@ -11,13 +11,13 @@ def index(request):
 def rent(request):
     return render(request,'listing.html')
 
-def about(request):
-    return render(request,'about.html')
+# def about(request):
+#     return render(request,'about.html')
 
-def location(request):
-    info = Plot.objects.all()
-    param ={'info':info}
-    return render(request,'deals.html',param)
+# def location(request):
+#     info = Plot.objects.all()
+#     param ={'info':info}
+#     return render(request,'deals.html',param)
 
 
 
