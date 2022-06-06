@@ -14,17 +14,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = "django-insecure-==n88b%b0jz7s_b%c-%7vjmzyfg^n#xt@cs1f1pec(3j)9_t1z"
-#SECRET_KEY = os.environ['SECRET_KEY']
+#SECRET_KEY = "django-insecure-==n88b%b0jz7s_b%c-%7vjmzyfg^n#xt@cs1f1pec(3j)9_t1z"
+SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 
 
 
 
-DEBUG = True
+DEBUG = False
 
-#ALLOWED_HOSTS = ['rentfind.herokuapp.com','localhost']
-ALLOWED_HOSTS=[]
+ALLOWED_HOSTS = ['rentfind.herokuapp.com','localhost']
+#ALLOWED_HOSTS=[]
 # Application definition
 
 
@@ -134,4 +134,4 @@ MESSAGE_TAGS = {
 }
 
 
-#STATIC_ROOT =BASE_DIR / 'static'
+STATIC_ROOT =BASE_DIR / 'static'
