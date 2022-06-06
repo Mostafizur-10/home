@@ -15,25 +15,83 @@
 
 <body>
 
-
 <div class="header">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <img src="static/css/logo.png" class="logo">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+              <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+            </svg>
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-links">
-                <li><a href="#">Popular Places</a></li>
-                <li><a href="#">Travel Outside</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/rent">Online Package</a></li>
+                <li><a href="#">Dashboard</a></li>
             </ul>
-            <a href="#" class="register-btn">Register Now</a>
+            <a href="/register" class="register-btn">Register Now</a>
           </div>
         </div>
       </nav>
+      <div class="container">
+        <h1>Find Your Fresh Start</h1>
+          <div class="search-bar">
+            <form>
+              <div>
+                <label>Location</label>
+                <input type="text" placeholder="Where are you going?">
+              </div>
+              <div>
+                <label>Check in</label>
+                <input type="text" placeholder="Add Date">
+              </div>
+              <div>
+                <label>Check out</label>
+                <input type="text" placeholder="Add Date">
+              </div>
+              <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+      </div>
+    
+
 </div>
+<main>
+  <div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1">Renting Made Simple</h1>
+        <p class="lead">
+          Browse the highest quality listings, apply online, sign your lease, and even pay your rent from any device.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Find Now</button>
+        </div>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="static/css/house-5.jpg" alt="" width="720">
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      </ul>
+      <p class="text-center text-muted">© 2022 Company, Inc</p>
+    </footer>
+  </div>
+</footer>
+
 
 
 
